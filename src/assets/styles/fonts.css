@@ -1,0 +1,36 @@
+/* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
+@font-face {
+	font-family: "Intro-grid";
+	src: url('../fonts/IntroRegular/IntroRegular.eot') format('eot'), /* Super Modern Browsers */
+       url('../fonts/IntroRegular/IntroRegular.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/IntroRegular/IntroRegular.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayBold";
+	src: url('../fonts/RalewayBold/RalewayBold.eot') format('eot'), /* Super Modern Browsers */
+       url('../fonts/RalewayBold/RalewayBold.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "RalewayExtraBold";
+	src: url('../fonts/RalewayExtraBold/RalewayExtraBold.eot') format('eot'), /* Super Modern Browsers */
+       url('../fonts/RalewayExtraBold/RalewayExtraBold.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/RalewayExtraBold/RalewayExtraBold.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Raleway-grid";
+	src: url('../fonts/RalewayRegular/RalewayRegular.eot') format('eot'), /* Super Modern Browsers */
+       url('../fonts/RalewayRegular/RalewayRegular.woff') format('woff'), /* Pretty Modern Browsers */ 
+       url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");/* Safari, Android, iOS */
+	font-style: normal;
+	font-weight: normal;
+}

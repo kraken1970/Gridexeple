@@ -1,0 +1,49 @@
+/*@import './lib/bootstrap-grid-3.3.1.min.css';*/
+@import 'normalize-css/normalize.css';
+@import './fonts.css';
+@import 'base.css';
+@import 'vars.css';
+$accent: #F0650D;
+$dark: #293A43;
+$light: #EDEDED;
+$gray: #4B5A65;
+$gutter: 20px;
+
+.grid {
+  display: grid;
+}
+
+.main-header {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  align-content: center;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $dark;
+    opacity: 0.92;
+  }
+}
+
+.header-content {
+  z-index: 1;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  
+    font-size: 60px;
+    font-family: "Intro-grid", sans-serif;
+   
+  
+}
+
+
+@import 'media.css';
+
+
